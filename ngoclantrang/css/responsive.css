@@ -1,0 +1,65 @@
+html { overflow-x: hidden }
+/*-----------------------------------------------
+/* @media {      } queries
+/*---------------------------------------------*/
+@media screen and (max-width: 1700px) { 
+	.content{
+		width: 55%;
+	}
+}
+@media screen and (max-width: 1440px) { 
+	.content{
+		width: 65%;
+	}
+	h1.cauhoi{
+		padding-top: 172px;
+	}
+}
+@media screen and (max-width: 1024px) { 
+	.content{
+		width: 70%;
+	}
+	h1.cauhoi{
+		padding-top: 125px;
+	}
+}
+@media screen and (max-width: 950px) { 
+	.content{
+		width: 72%;
+	}
+}
+@media screen and (max-width: 850px) { 
+	.content{
+		width: 80%;
+	}
+}
+@media screen and (max-width: 700px) { 
+	.content{
+		width: 85%;
+	}
+}
+@media screen and (max-width: 580px) { 
+	#no{
+	    margin-right: 0px;
+	    display: block;
+	    text-align: center;
+	    margin: 0 auto;
+	}
+	#yes{
+	    margin-left: 0px;
+	    display: block;
+	    text-align: center;
+	    margin: 0 auto;
+	    margin-top: 12px;
+	}
+}
+@media screen and (max-width: 540px) { 
+	h1.cauhoi{
+		padding-top: 89px;
+	}
+}
+@media screen and (max-width: 520px) { 
+	h1.cauhoi{
+		padding-top: 35px;
+	}
+}

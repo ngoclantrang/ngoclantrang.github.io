@@ -1,0 +1,11 @@
+html { overflow-x: hidden }
+.main-container { max-width: 100% }
+/*-----------------------------------------------
+/* @media {      } queries
+/*---------------------------------------------*/
+@media screen and (max-width: 720px) { 
+	.huuphung, .ai-do, #heart {float: none;}
+	#info {margin: 0 auto;text-align: center;}
+	#heart {margin-left: 0;}
+	#music {margin-top: 1rem;}
+}

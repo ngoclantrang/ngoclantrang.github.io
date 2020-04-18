@@ -1,0 +1,96 @@
+body{
+	width: 100%;
+	height: 100%;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+footer {
+    width: 89px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+}
+#page-wrap footer,#page-wrap footer a{color: #ccc;opacity: 0.1;}
+#page-wrap-sad footer,#page-wrap-sad footer a{color: #4d2a31;opacity: 0.1;padding-top: 250px;}
+/*
+/* edit
+/*--------------------------------*/
+h1.cauhoi{
+	padding-top: 225px;
+	font-size: 21px;
+	color: #FFFFFF;
+	text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 7px, #FFF 0px 0px 12px, #a900ff 0px 0px 17px, #a900ff 0px 0px 7px, #a900ff 0px 0px 7px, #a900ff 0px 0px 7px, #a900ff 0px 0px 7px;
+}
+h2.cauhoi{
+	font-size: 35px;
+	color: #FFFFFF;
+	text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 7px, #FFF 0px 0px 12px, #ff0000 0px 0px 17px, #ff0000 0px 0px 7px, #ff0000 0px 0px 7px, #ff0000 0px 0px 7px, #ff0000 0px 0px 7px;
+}
+.traloi{
+	border: 1px #f7f7f7 solid;
+	font-size: 32px;
+	padding: 12px;
+	cursor: pointer;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	-moz-box-shadow: #FFF 0px 0px 5px;
+	-webkit-box-shadow: #FFF 0px 0px 5px;
+    box-shadow: #FFF 0px 0px 5px;
+    margin: 0 auto;
+    margin-top: 25px;
+
+}
+#no{
+    background: #000265;
+    border: 1px #999 solid;
+    color: #ccc;
+    margin-right: 72px;
+}
+#yes{
+    background: #ff0097d1;
+    border: 1px #dcdcdc solid;
+    color: #fff;
+    margin-left: 72px;
+}
+/*
+/* page-wrap
+/*--------------------------------*/
+#page-wrap{
+	background: url(img/background.jpg) no-repeat center;
+	width: 100%;
+	height: 100vh;
+	display: true;
+}
+.content{
+	width: 50%;
+	font-family: 'Mali', cursive;
+	font-size: 14px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+/*
+/* page-wrap-sad
+/*--------------------------------*/
+#page-wrap-sad{
+	background: url(img/background-sad.jpg) no-repeat center;
+	width: 100%;
+	height: 100vh;
+	display: none;
+}
+#page-wrap-sad .content{
+	position: relative;
+	width: 200px;
+	margin: 0 auto;
+}
+#page-wrap-sad .content h3{
+	color: #fff;
+	text-align: center;
+	padding-top: 320px;
+	font-family: Arial;
+	font-weight: bold;
+}
